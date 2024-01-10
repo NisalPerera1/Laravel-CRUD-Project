@@ -4,21 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Laravel CRUD</title>
-    <!-- Include Bootstrap CSS -->
+    <title>Laravel Project By Nisal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
+<body style="background-color: #f2f2f2;"> 
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="{{ route('items.index') }}">Laravel CRUD</a>
+    <a class="navbar-brand" href="{{ route('items.index') }}">HOME</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="{{ route('items.index') }}">Items</a>
+                <a class="nav-link" href="{{ route('items.index') }}">ITEMS</a>
             </li>
         </ul>
     </div>
@@ -35,3 +35,6 @@
 
 </body>
 </html>
+
+
+

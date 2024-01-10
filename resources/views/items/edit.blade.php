@@ -23,6 +23,10 @@
                 No Image
             @endif
         </div>
+        <div class="form-group">
+    <label for="remove_image">Remove Image</label>
+    <input type="checkbox" name="remove_image" id="remove_image">
+</div>
         <button type="submit" class="btn btn-warning">Update</button>
     </form>
     <a href="{{ route('items.index') }}" class="btn btn-secondary mt-2">Back</a>
